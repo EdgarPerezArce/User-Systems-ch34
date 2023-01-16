@@ -8,17 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h2>Login</h2>
-        <div>
-            <input type="email" placeholder="Enter your email" id="txtemail">
-            <input type="password" placeholder="Enter your password" id="txtPassword">
-        </div>
-        <button id="btnLogin">Login</button>
-    </div>
+    <h2>Users in the system</h2>
+    <table>
+    <thead>
+        <th>Email</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Phone</th>
+        <th>Payment</th>
+        <th>Color</th>
+    </thead>
+    <tbody id="users-table">
+        
+    </tbody>
+    </table>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js">
     </script>
     <script src="scripts/storeManager.js"></script>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/users.js"></script>
 </body>
 </html>
